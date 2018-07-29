@@ -54,7 +54,7 @@ $ instanceId=`aws ec2 run-instances --image-id ami-8c122be9 --count 1 --instance
 ### Log into the running instance
 ```
 $ instanceUrl=`aws ec2 describe-instances --instance-ids $instanceId --query 'Reservations[0].Instances[0].PublicDnsName' --output text`
-$ ssh -i ~/.ssh/my-key.pen ec2-user@instanceUrl
+$ ssh -i ~/.ssh/my-key.pen ec2-user@$instanceUrl
 ```
 ### List all active instances in the VPC
 ```
