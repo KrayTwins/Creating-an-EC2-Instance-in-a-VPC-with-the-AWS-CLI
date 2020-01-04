@@ -1,4 +1,4 @@
-# Creating-an-EC2-Instance-in-a-VPC-with-the-AWS-CLI
+# Creating an EC2 Instance in a VPC with the AWS-CLI
 These instructions were published at vaneyckt https://coderwall.com/p/ndm54w/creating-an-ec2-instance-in-a-vpc-with-the-aws-command-line-interface
 
 ###  Creating the VPC
